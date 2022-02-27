@@ -260,14 +260,14 @@ top: 16px;
 `;
 
 const BtnSignUp = styled.div`
-  width: 200px;
-  height: 43px;
+  width: 110px;
+  height: 44px;
   background-color: rgba(255,161,161,1);
   shadow-radius: 0px;
   overflow: visible;
   flex-direction: column;
   border-radius: 6px;
-  margin-left: 250px;
+  margin-left: 290px;
   margin-top: 37px;
   border: none;
   box-shadow: 0px 3px 0px  1px rgba(0,0,0,1) ;
@@ -284,14 +284,14 @@ font-weight: 600;
 `;
 
 const BtnLogIn = styled.div`
-  width: 200px;
-  height: 43px;
+  width: 110px;
+  height: 44px;
   border-width: 1px;
   border-color: rgba(151,151,151,1);
   border-radius: 6px;
   flex-direction: column;
   display: flex;
-  margin-left: 25px;
+  margin-left: 45px;
   margin-top: 37px;
   border-style: solid;
 `;
@@ -705,8 +705,8 @@ const Class1Row = styled.div`
 `;
 
 const FreeClass = styled.div`
-  width: 1366px;
-  height: 506px;
+width: 1420px;
+height: 559px;
   flex-direction: column;
   display: flex;
   margin-top: 2px;
@@ -752,6 +752,7 @@ const Rect10 = styled.div`
   flex-direction: column;
   display: flex;
   border-style: solid;
+  box-shadow: 0px 30px 60px rgba(32, 56, 85, 0.15);
 `;
 
 const FreeClassTitle = styled.span`
@@ -882,6 +883,7 @@ const Rect11 = styled.div`
   flex-direction: column;
   display: flex;
   border-style: solid;
+  box-shadow: 0px 30px 60px rgba(32, 56, 85, 0.15);
 `;
 
 const FreeClassTitle1 = styled.span`
