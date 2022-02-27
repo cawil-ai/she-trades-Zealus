@@ -1,0 +1,50 @@
+@font-face {
+        font-family: "poppins-600";
+        src: url("./assets/fonts/poppins-600.ttf") format("truetype");
+      }
+@font-face {
+        font-family: "poppins-800";
+        src: url("./assets/fonts/poppins-800.ttf") format("truetype");
+      }
+/* @font-face {
+        font-family: "Montserrat-ExtraBold";
+        font-style: normal;
+        font-weight: 800;
+        src: url("./assets/fonts/Montserrat-ExtraBold.woff") format("woff");
+      } */
+/* @font-face {
+        font-family: "Montserrat-Regular";
+        src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+      } */
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        src: local('Montserrat-ExtraBold'), url("./assets/fonts/Montserrat-ExtraBold.woff") format('woff');
+        }
+        @font-face {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          src: local('Montserrat-Regular'), url("./assets/fonts/Montserrat-Regular.woff") format('woff');
+          }
+          @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            src: local('Montserrat-SemiBold'), url("./assets/fonts/Montserrat-SemiBold.woff") format('woff');
+            }
+            @font-face {
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 700;
+              src: local('Montserrat-Bold'), url("./assets/fonts/Montserrat-Bold.woff") format('woff');
+              }
+@font-face {
+        font-family: "poppins-regular";
+        src: url("./assets/fonts/poppins-regular.ttf") format("truetype");
+      }
+@font-face {
+        font-family: "poppins-500";
+        src: url("./assets/fonts/poppins-500.ttf") format("truetype");
+      }
