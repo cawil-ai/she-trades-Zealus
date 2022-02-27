@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styled, { css } from "styled-components";
 import EntypoIcon from "react-native-vector-icons/dist/Entypo";
 import FontAwesomeIcon from "react-native-vector-icons/dist/FontAwesome";
+import "../style.css";
 
 function Index(props) {
   return (
@@ -49,7 +50,7 @@ function Index(props) {
       <Classes>
         <ClassScrollArea>
           <ClassesTitleHeading>Classes</ClassesTitleHeading>
-          <Divider></Divider>
+          <Divider/>
           <Class1Row>
             <Class1>
               <Image2Stack>
@@ -252,9 +253,10 @@ const NavBar = styled.div`
 `;
 
 const Image5 = styled.img`
-  width: 100%;
-  height: 118px;
-  object-fit: stretch;
+width: 590px;
+height: 118px;
+left: 22px;
+top: 16px;
 `;
 
 const BtnSignUp = styled.div`
@@ -272,9 +274,9 @@ const BtnSignUp = styled.div`
 `;
 
 const SignUp = styled.span`
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
   color: #121212;
   font-size: 16px;
   text-align: center;
@@ -295,10 +297,10 @@ const BtnLogIn = styled.div`
 `;
 
 const LogIn = styled.span`
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  color: #121212;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+color: #979797;
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
@@ -375,9 +377,10 @@ const ZealusWomenInTechColumnFiller = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100%;
-  height: 436px;
-  object-fit: stretch;
+width: 494.45px;
+height: 436.15px;
+left: 781.27px;
+top: 212.43px;
 `;
 
 const ZealusWomenInTechColumnRow = styled.div`
@@ -401,11 +404,15 @@ const Classes = styled.div`
 const ClassScrollArea = styled.div`
   overflow-x: scroll;
   width: 1366px;
-  background-color: #E6E6E6;
+  background-color: #F2F2F2;
   height: 556px;
   flex-direction: column;
   display: flex;
   margin-left: 30px;
+width: 1420px;
+height: 559px;
+left: 0px;
+top: 739px;
 `;
 
 const ClassesTitleHeading = styled.span`
@@ -418,7 +425,7 @@ const ClassesTitleHeading = styled.span`
   height: 55px;
   text-align: center;
   margin-top: 30px;
-  margin-left: 508px;
+  margin-left: 590px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -427,9 +434,11 @@ const ClassesTitleHeading = styled.span`
 const Divider = styled.div`
   width: 112px;
   height: 8px;
+  left: 637px;
+  top: 830px;
   background-color: rgba(61,64,91,1);
   margin-top: 26px;
-  margin-left: 596px;
+  margin-left: 680px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -690,8 +699,8 @@ const Class1Row = styled.div`
   flex-direction: row;
   display: flex;
   margin-top: 63px;
-  margin-left: 48px;
-  margin-right: 29px;
+  margin-left: 60px;
+  margin-right: 20px;
   flex: 0 0 auto;
 `;
 
