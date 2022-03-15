@@ -24,15 +24,6 @@ function Index(props) {
           </BtnLogIn>
         </Image5Row>
         <Image5RowFiller></Image5RowFiller>
-        <EntypoIcon
-          name="menu"
-          style={{
-            color: "rgba(61,64,91,1)",
-            fontSize: 40,
-            marginRight: 23,
-            marginTop: 36
-          }}
-        ></EntypoIcon>
       </NavBar>
       <ZealusWomenInTechColumnRow>
         <ZealusWomenInTechColumn>
