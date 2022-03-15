@@ -3,11 +3,13 @@ import styled, { css } from "styled-components";
 import EntypoIcon from "react-native-vector-icons/dist/Entypo";
 import FontAwesomeIcon from "react-native-vector-icons/dist/FontAwesome";
 import "../style.css";
+import Menu from "../components/menu/Menu";
 
 function Index(props) {
   return (
     <Container>
       <NavBar>
+        <Menu/>
         <Image5Row>
           <Image5 src={require("../assets/images/CAWIL_2.png")}></Image5>
           <BtnSignUp>
@@ -255,7 +257,7 @@ const NavBar = styled.div`
 const Image5 = styled.img`
 width: 590px;
 height: 118px;
-left: 22px;
+margin-left: 80px;
 top: 16px;
 `;
 
