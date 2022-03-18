@@ -29,8 +29,9 @@ function JobPosting(props) {
           <PostingRow1>
             <Posting1>
               <RectPosting1>
-                <ImagePosting1 src={require("../assets/images/pentagram-black-logo-800.png")}></ImagePosting1>
-                
+                <ImagePosting1 src={require("../assets/images/Pentagram.png")}></ImagePosting1>
+                <Title1>SaaS Homepage redesign and onboarding updates<br/></Title1>
+                <SubTitle1>UX/UI Design<br/>Posted 27 minutes ago</SubTitle1>
               </RectPosting1>
             </Posting1>
           </PostingRow1>
@@ -218,12 +219,35 @@ box-shadow: 5px 4px 10px 10px rgba(0, 0, 0, 0.05);
 border-radius: 20px;
 `;
 
-const ImagePosting1 = styled.image`
+const ImagePosting1 = styled.img`
 position: absolute;
-width: 235px;
-height: 52px;
-left: 145px;
-top: 679px;
+width: 250px;
+height: 50px;
+left: 35px;
+top: 34px;
+`;
+
+const Title1 = styled.span`
+font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  color: #121212;
+  font-size: 20px;
+  height: 10px;
+  width: 550px;
+  text-align: left;
+  margin-top: 44px;
+  margin-left: 349px;
+`
+
+const SubTitle1 = styled.span`
+font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  color: #121212;
+  font-size: 13px;
+  margin-top: 44px;
+  margin-left: 28px;
 `;
 
 export default JobPosting;
