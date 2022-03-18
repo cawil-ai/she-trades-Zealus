@@ -386,12 +386,12 @@ const ZealusWomenInTechColumnRow = styled.div`
 `;
 
 const Classes = styled.div`
-  width: 1364px;
+  width: 1464px;
   height: 554px;
   flex-direction: column;
   display: flex;
   margin-top: 88px;
-  margin-left: -31px;
+  margin-left: -35px;
 `;
 
 const ClassScrollArea = styled.div`
@@ -402,7 +402,7 @@ const ClassScrollArea = styled.div`
   flex-direction: column;
   display: flex;
   margin-left: 30px;
-width: 1420px;
+width: 1560px;
 height: 559px;
 left: 0px;
 top: 739px;
@@ -418,7 +418,7 @@ const ClassesTitleHeading = styled.span`
   height: 55px;
   text-align: center;
   margin-top: 30px;
-  margin-left: 590px;
+  margin-left: 630px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -431,7 +431,7 @@ const Divider = styled.div`
   top: 830px;
   background-color: rgba(61,64,91,1);
   margin-top: 26px;
-  margin-left: 680px;
+  margin-left: 720px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -692,13 +692,13 @@ const Class1Row = styled.div`
   flex-direction: row;
   display: flex;
   margin-top: 63px;
-  margin-left: 60px;
+  margin-left: 106px;
   margin-right: 20px;
   flex: 0 0 auto;
 `;
 
 const FreeClass = styled.div`
-width: 1420px;
+width: 1560px;
 height: 559px;
   flex-direction: column;
   display: flex;
@@ -721,7 +721,7 @@ const FreeClassHeading = styled.span`
   color: #121212;
   font-size: 36px;
   margin-top: 44px;
-  margin-left: 624px;
+  margin-left: 650px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -994,7 +994,7 @@ const FreeClass1Row = styled.div`
   flex-direction: row;
   display: flex;
   margin-top: 32px;
-  margin-left: 203px;
+  margin-left: 233px;
   margin-right: 171px;
   flex: 0 0 auto;
 `;
