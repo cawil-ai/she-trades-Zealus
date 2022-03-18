@@ -31,7 +31,7 @@ function Startup(props) {
           <Class1Row>
             <Class1>
               <Image2Stack>
-                <Image2 src={require("../assets/images/AI.png")}></Image2>
+                <Image2 src={require("../assets/images/design thinking.jpg")}></Image2>
                 <Rect6>
                   <ClassTitle>Design Thinking</ClassTitle>
                 </Rect6>
@@ -39,7 +39,7 @@ function Startup(props) {
             </Class1>
             <Class2>
               <Image6Stack>
-                <Image6 src={require("../assets/images/py.jfif")}></Image6>
+                <Image6 src={require("../assets/images/pitching.jpg")}></Image6>
                 <Rect12>
                   <IntroToTensorFlow>Pitching 101</IntroToTensorFlow>
                 </Rect12>
@@ -47,7 +47,7 @@ function Startup(props) {
             </Class2>
             <Class3>
               <Image7Stack>
-                <Image7 src={require("../assets/images/fd.jpg")}></Image7>
+                <Image7 src={require("../assets/images/funding.jpg")}></Image7>
                 <Rect13>
                   <BasicHtmlCssJs>Funding</BasicHtmlCssJs>
                 </Rect13>
